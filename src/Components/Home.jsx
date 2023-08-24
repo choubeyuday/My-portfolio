@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
+import uday from '../assets/udayremove2.png';
 
 
 const Home = () => {
@@ -27,7 +27,7 @@ const Home = () => {
           </div>
         </div>
         <div id='egg_shape' className="developer-pic">
-          <img src="./src/assets/udayremove2.png" alt="" />
+          <img src={uday} alt="" />
         </div>
       </div>
     </>

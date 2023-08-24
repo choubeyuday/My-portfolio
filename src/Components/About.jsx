@@ -9,6 +9,14 @@ import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import SportsCricketIcon from '@mui/icons-material/SportsCricket';
 import WorkIcon from '@mui/icons-material/Work';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import cloud from '../assets/cloud.png';
+import clock from '../assets/clock-img-1.jpg';
+import book from '../assets/top-page.jpeg';
+import portimg from '../assets/portfolio-img.jpeg';
+import udaycric from '../assets/uday_pic.jpg';
+import badminton from '../assets/badminton_racket.jpg';
+import codemeg from '../assets/codemeg.jpeg';
+
 
 
 const About = () => {
@@ -88,28 +96,28 @@ const About = () => {
             <div className={` ${isview ? 'projt' : 'projt_view'}`}>
               <div className="detail-pro">
                 <div className="pro-pic">
-                  <img src="./src/assets/cloud.png" alt="weather" />
+                  <img src={cloud} alt="weather" />
                 </div>
                 <button className="edu-btn" ><a href="https://choubeyuday.github.io/WeatherLocation.githup.io/" target='_blank' >View</a></button>
               </div>
 
               <div className="detail-pro">
                 <div className="pro-pic">
-                  <img src="./src/assets/clock-img-1.jpg" alt="" />
+                  <img src={clock} alt="" />
                 </div>
                 <button className="edu-btn" ><a href="#" target='_blank' >View</a></button>
               </div>
 
               <div className="detail-pro">
                 <div className="pro-pic">
-                  <img src="./src/assets/top-page.JPEG" alt="" />
+                  <img src={book} alt="" />
                 </div>
                 <button type='text' className="edu-btn" data-bs-toggle="tooltip" title='not available' ><a href="#" target='_blank' >View</a></button>
               </div>
 
               <div className="detail-pro">
                 <div className="pro-pic">
-                  <img src="./src/assets/portfolio-img.jpeg" alt="portfolio" />
+                  <img src={portimg} alt="portfolio" />
                 </div>
                 <button className="edu-btn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="not available" ><a href="#" target='_blank'>View</a></button>
               </div>
@@ -125,7 +133,7 @@ const About = () => {
             <div className={` ${issports ? "issport" : "fav_sport"}`}>
               <div className="cricket">
                 <h2>Cricket</h2>
-                <img src="./src/assets/uday_pic.jpg" alt="cricket" />
+                <img src={udaycric} alt="cricket" />
                 <p>I am a Sports Person , my favourite sport is Cricket , cricket is key for fitness .
                   I am very to be the part of ASCL(ALL Star Cricket League) which is played in Dehradhun(U.K).
                   I love to play Cricket any time any where.
@@ -133,7 +141,7 @@ const About = () => {
               </div>
               <div className="cricket">
                 <h2>Badminton</h2>
-                <img src="./src/assets/badminton_racket.jpg" className="badm_img" alt="badminton" />
+                <img src={badminton} className="badm_img" alt="badminton" />
                 <p>After cricket , i love to play Badminton , this is always help me to be a fit person.
                   I was represented my School SSNVM at District level Badminton Competition.After play
                   Badminton i feel very strechable.</p>
@@ -150,7 +158,7 @@ const About = () => {
             <div className={` ${isexpt ? "expbox" : "fav_sport"}`} >
               <div className="fit-box">
                 <h2>Work Experience</h2>
-                <img src="./src/assets/codemeg.jpeg" alt="codemeg" />
+                <img src={codemeg} alt="codemeg" />
                 <div className="exp-detail">
                   <h3>Codemeg Soft Solution - Internship</h3>
                   <h5>Indore, Madhya Pradesh, India · On-site</h5>

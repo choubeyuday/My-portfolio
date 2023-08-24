@@ -2,6 +2,10 @@ import { useState } from 'react';
 import React  from 'react'
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import Side from '../Components/Side';
+import cloud from '../assets/cloud.png';
+import clock from '../assets/clock-img-1.jpg';
+import book from '../assets/top-page.jpeg'
+import portimg from '../assets/portfolio-img.jpeg'
 
 const Projects = () => {
 
@@ -39,28 +43,28 @@ const Projects = () => {
             <div className={` ${isview ? 'projt' : 'projt_view'}`}>
               <div className="detail-pro">
                 <div className="pro-pic">
-                  <img src="./src/assets/cloud.png" alt="weather" />
+                  <img src={cloud} alt="weather" />
                 </div>
                 <button className="edu-btn" ><a href="https://choubeyuday.github.io/WeatherLocation.githup.io/" target='_blank' >View</a></button>
               </div>
 
               <div className="detail-pro">
                 <div className="pro-pic">
-                  <img src="./src/assets/clock-img-1.jpg" alt="" />
+                  <img src={clock} alt="" />
                 </div>
                 <button className="edu-btn" ><a href="https://choubeyuday.github.io/WeatherLocation.githup.io/" target='_blank' >View</a></button>
               </div>
 
               <div className="detail-pro">
                 <div className="pro-pic">
-                  <img src="./src/assets/top-page.JPEG" alt="" />
+                  <img src={book} alt="" />
                 </div>
                 <button className="edu-btn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="not available" ><a href="#" target='_blank'>View</a></button>
               </div>
 
               <div className="detail-pro">
                 <div className="pro-pic">
-                  <img src="./src/assets/portfolio-img.jpeg" alt="" />
+                  <img src={portimg} alt="" />
                 </div>
                 <button className="edu-btn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="not available" ><a href="#" target='_blank'>View</a></button>
               </div>

@@ -6,6 +6,7 @@ import AddTaskIcon from '@mui/icons-material/AddTask';
 import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import PersonIcon from '@mui/icons-material/Person';
+import logo from '../assets/istockphoto.png';
 
 const Navbar = () => {
   const [isMobile , setIsMobile] = useState(false)
@@ -21,7 +22,7 @@ const Navbar = () => {
         <nav className='Nav'>
           <ul id='navBar' className={`${isMobile ? 'display' : 'nonedis'} `} >
             <div className="right">
-              <span className='logo-img'><img src="./src/assets/istockphoto.png" alt="logoU" /></span>
+              <span className='logo-img'><img src={logo} alt="logoU" /></span>
                <div className="text-name">
                 <h1>Full Stack</h1>
                 <h2>Developer</h2>

@@ -8,6 +8,7 @@ import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import PersonIcon from '@mui/icons-material/Person';
 import { NavLink } from 'react-router-dom';
+import uday from '../assets/udayremove2.png';
 
 
 
@@ -27,7 +28,7 @@ const Side = () => {
      </i>
         <div className="S-bar">
              <div className={`top-section   ${isToggle ? 'display ' :"none  "} `} >
-                <h2 className="logo"><img src="./src/assets/udayremove2.png" alt="udaypic" />Uday Choubey</h2>
+                <h2 className="logo"><img src={uday} alt="udaypic" />Uday Choubey</h2>
                 <div className="bars">
                     <ul>
                         {/* <li><NavLink to=""><CloseIcon onClick={tog} className='clear' /></NavLink></li> */}
