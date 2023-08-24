@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu&display=swap");
+
 body {
   width: 100%;
   height: 100vh;
@@ -145,8 +148,7 @@ div#cont-alrt {
   margin: auto;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu&display=swap");
+
 
 * {
   margin: 0;
@@ -559,9 +561,9 @@ h2 {
   box-shadow: 64px 18px 0px 67px #35353563;
 }
 
-.developer-pic {
+/* .developer-pic {
 
-}
+} */
 
 
 .topInfo {
@@ -805,9 +807,9 @@ button.edu-btn {
   object-fit: cover;
 
 }
-.badm_img{
+/* .badm_img{
 
-}
+} */
 
 .cricket p {
   font-size: 20px;
@@ -1661,8 +1663,8 @@ ion-icon#whatsapp {
 
 }
 
-@media (max-width: 736px) {
-  /* .infoContainer {
+/*@media (max-width: 736px) {
+  .infoContainer {
     text-align: left;
     margin: 58px 51px;
     width: 100%;
@@ -1670,9 +1672,9 @@ ion-icon#whatsapp {
 
   /* .developer-pic img {
     margin: 0 -98px;
-  } */
+  } 
  
-}
+}*/
 
 @media (max-width: 633px) {
   .display {
@@ -1738,9 +1740,9 @@ ion-icon#whatsapp {
     width: 135px;
   }
 
-  .S-bar{
+  /* .S-bar{
 
-  }
+  } */
   h2.logo{
     font-size: 13px;
     font-family: sans-serif;
@@ -1825,9 +1827,9 @@ ion-icon#whatsapp {
   .logo-detl{
     width: 329px;
   }
-  .intro p{
+  /* .intro p{
 
-  }
+  } */
 
   .cricket p {
     width: 207px;
